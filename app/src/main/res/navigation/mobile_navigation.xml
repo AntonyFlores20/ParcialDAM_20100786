@@ -3,23 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
-
+    app:startDestination="@id/navprincipal">
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.parcialdam_20100786.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
+        android:id="@+id/navmusica"
+        android:name="com.example.parcialdam_20100786.ui.fragments.PresupuestoFragment"
+        android:label="fragment_Presupuesto"
+        tools:layout="@layout/fragment_presupuesto" />
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.parcialdam_20100786.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/navprincipal"
+        android:name="com.example.parcialdam_20100786.ui.fragments.SegurosFragment"
+        android:label="fragment_Seguros"
+        tools:layout="@layout/fragment_seguros" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.parcialdam_20100786.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/navregistro"
+        android:name="com.example.parcialdam_20100786.ui.fragments.HotelesFragment"
+        android:label="fragment_Hoteles"
+        tools:layout="@layout/fragment_hoteles" />
 </navigation>

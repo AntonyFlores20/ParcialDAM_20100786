@@ -10,4 +10,14 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="valtitlelogin" />
+    <string name="valetpassword">Password\n</string>
+    <string name="valetemail">Email</string>
+    <string name="valbtsave">Sign in\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_Presupuesto">Presupuesto\n</string>
+    <string name="title_Seguros">Seguros\n</string>
+    <string name="title_Hoteles">Hoteles\n</string>
+    <string name="valbtnsave">Calcular\n</string>
 </resources>
